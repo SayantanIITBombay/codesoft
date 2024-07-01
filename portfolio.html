@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Project</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+
+		#header {
+			background-color: #FF0000;
+			color: #000000;
+		}
+
+		#header a {
+			color: #000000;
+			text-decoration: none;
+		}
+
+		#home,
+		#about,
+		#contact {
+			background-color: #000000;
+			color: #FF0000;
+		}
+
+		#projects {
+			background-color: #000000;
+			color: #FF0000;
+		}
+
+		#projects a {
+			color: #FF0000;
+			text-decoration: none;
+		}
+
+		#footer {
+			background-color: #FF0000;
+			color: #000000;
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+
+		td {
+			padding: 15px;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+		}
+
+		ul li {
+			margin-bottom: 10px;
+		}
+
+		ul li a {
+			text-decoration: none;
+			color: #FF0000;
+		}
+
+		hr {
+			border: 1px solid #FF0000;
+		}
+
+		input,
+		textarea,
+		button {
+			font-size: 16px;
+			padding: 10px;
+			border: 1px solid #FF0000;
+			background-color: #000000;
+			color: #FF0000;
+		}
+
+		button {
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+	<!--Header-->
+	<table id="header" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<table border="0" cellpadding="0" cellspacing="0" width="90%" align="center">
+					<tr>
+						<td>
+							<font size="6">
+								<b>CodSoft</b>
+							</font>
+						</td>
+						<td align="right">
+							<a href="#home"><font size="5">Home</font></a> |
+							<a href="#about"><font size="5">About</font></a> |
+							<a href="#projects"><font size="5">Projects</font></a> |
+							<a href="#achievements"><font size="5">Achievements</font></a> |
+							<a href="#contact"><font size="5">Contact</font></a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<!--Home-->
+	<table id="home" border="1" cellpadding="20" cellspacing="0">
+		<tr>
+			<td align="center">
+				<h3>Hi Everyone!</h3>
+			</td>
+		</tr>
+	</table>
+
+	<!--About-->
+	<table id="about" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center" valign="middle" colspan="2">
+							<font size="7">About Me</font>
+							<hr width="90">
+						</td>
+					</tr>
+					<tr>
+						<td width="40%">
+							<img src="img.png" alt="Profile Picture">
+						</td>
+						<td width="60%">
+							<font size="4">Thanks for your interest, here is a quick story about me and this website.
+							    I am sayantan Mandal a codsoft intern ,this is a demo project which shows a portfolio website using html and css.
+								</font>
+						</td>
+					</tr>
+				</table>
+				<hr>
+			</td>
+		</tr>
+	</table>
+
+	<!--Projects-->
+	<table id="projects" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center" valign="middle" colspan="2">
+							<font size="7">Projects</font>
+							<hr width="90">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<ul>
+								<li>BMI Calculator <a href="#">➲</a></li>
+								<li>Calculator <a href="#">➲</a></li>
+								<li>Calendar <a href="#">➲</a></li>
+								<li>ChatBot <a href="#">➲</a></li>
+							</ul>
+						</td>
+						<td width="45%">
+							<img src="img.png" alt="Project" width="75%">
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<!--Achievements-->
+	<table id="achievements" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center" valign="middle" colspan="2">
+							<font size="7">Achievements</font>
+							<hr width="90">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<ul>
+								<li><b>Intern at CodSoft.</b>
+									<ul>
+										<li>June 2024 - Present.</li>
+										<li>Working on various web development projects.</li>
+									</ul>
+								</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<!--Contact-->
+	<table id="contact" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center" valign="middle" colspan="2">
+							<font size="7">Contact</font>
+							<hr width="90">
+						</td>
+					</tr>
+					<tr>
+						<td align="center" valign="top">
+							<table border="0" width="50%" cellpadding="15" cellspacing="0" align="center">
+								<tr>
+									<td width="30%">
+										<font size="4">Name</font>
+									</td>
+									<td width="70%">
+										<input type="text" size="40">
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font size="4">Email</font>
+									</td>
+									<td width="70%">
+										<input type="email" size="40">
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font size="4">Number</font>
+									</td>
+									<td width="70%">
+										<input type="number" size="12">
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font size="4">Message</font>
+									</td>
+									<td width="70%">
+										<textarea rows="5" cols="37"></textarea>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+									</td>
+									<td width="70%">
+										<button type="submit"><b>Submit</b></button>
+										<hr>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<!--Footer-->
+	<table id="footer" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+					<tr>
+						<td width="13%" valign="
